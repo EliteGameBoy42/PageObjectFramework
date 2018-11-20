@@ -1,0 +1,7 @@
+02:05:44.909 [main] INFO  resources.base - Entered the username and the password
+02:05:46.613 [main] INFO  resources.base - clicked on the login button
+02:05:46.613 [main] INFO  resources.base - Browser is reopening for the second testcase
+02:05:50.774 [main] INFO  resources.base - driver is initialized
+02:05:57.588 [main] INFO  resources.base - Navigated to Home page
+02:05:57.725 [main] INFO  resources.base - Successfully validated text message
+02:06:00.106 [main] INFO  resources.base - Browser is closed

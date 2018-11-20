@@ -1,0 +1,7 @@
+23:41:19.914 [main] INFO  resources.base - clicked on the login button
+23:41:19.920 [main] INFO  resources.base - Browser is reopening for the second testcase
+23:41:22.624 [main] INFO  resources.base - Navigated to the url
+23:41:25.677 [main] INFO  resources.base - Entered the username and the password
+23:41:27.711 [main] INFO  resources.base - clicked on the login button
+23:41:27.711 [main] INFO  resources.base - Browser is reopening for the second testcase
+23:41:30.590 [main] INFO  resources.base - successfully closed the browser

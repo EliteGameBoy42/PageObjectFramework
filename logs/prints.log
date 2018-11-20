@@ -1,0 +1,4 @@
+02:06:03.696 [main] INFO  resources.base - driver is initialized
+02:06:11.224 [main] INFO  resources.base - Navigated to the url
+02:06:11.299 [main] INFO  resources.base - Validated the navigation bar
+02:06:13.715 [main] INFO  resources.base - successfully closed the browser
