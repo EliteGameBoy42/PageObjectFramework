@@ -14,8 +14,9 @@ import java.io.IOException;
 
 public class Homepage extends base {
     public static Logger log = LogManager.getLogger(base.class.getName());
+
     @BeforeTest
-    public void initialize()throws IOException {
+    public void initialize() throws IOException {
         driver = initializeDriver();
         log.info("driver is initialized");
     }
@@ -37,6 +38,7 @@ public class Homepage extends base {
         log.info("Browser is reopening for the second testcase");
 
     }
+
     @DataProvider
     public Object[][] getData() {
         Object[][] data = new Object[2][3];
@@ -53,9 +55,9 @@ public class Homepage extends base {
     }
 
     @AfterTest
-    public void tearDown(){
+    public void tearDown() {
         driver.manage().deleteAllCookies();
         driver.close();
-        driver=null;
+        driver = null;
     }
 }

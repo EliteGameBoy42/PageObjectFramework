@@ -8,8 +8,8 @@
     <name>firstFramework</name>
     <url>http://maven.apache.org</url>
     <properties>
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
     <build>
         <resources>
@@ -25,19 +25,14 @@
                 <version>3.0.0-M1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <!--<suiteXmlFile>testng.xml</suiteXmlFile>-->
+                        <suiteXmlFile>testngCucumber.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
     <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -71,11 +66,38 @@
             <artifactId>extentreports</artifactId>
             <version>3.1.5</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.2.5</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- pom.xml -->
         <dependency>
             <groupId>com.relevantcodes</groupId>
             <artifactId>extentreports</artifactId>
             <version>2.41.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
 
 

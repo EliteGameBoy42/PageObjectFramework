@@ -1,8 +1,4 @@
-02:06:03.696 [main] INFO  resources.base - driver is initialized
-02:06:11.224 [main] INFO  resources.base - Navigated to the url
-02:06:11.299 [main] INFO  resources.base - Validated the navigation bar
-02:06:13.715 [main] INFO  resources.base - successfully closed the browser
-17:01:57.548 [main] INFO  resources.base - driver is initialized
-17:02:05.592 [main] INFO  resources.base - Navigated to Home page
-17:02:05.717 [main] INFO  resources.base - Successfully validated text message
-17:02:08.208 [main] INFO  resources.base - Browser is closed
+13:55:25.169 [main] INFO  resources.base - clicked on the login button
+13:55:36.865 [main] INFO  resources.base - Navigated to the url
+13:55:43.754 [main] INFO  resources.base - Entered the username and the password
+13:55:44.983 [main] INFO  resources.base - clicked on the login button

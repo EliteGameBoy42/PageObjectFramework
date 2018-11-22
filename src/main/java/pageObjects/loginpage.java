@@ -10,12 +10,11 @@ public class loginpage {
 
     public loginpage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver,this);
     }
     By email = By.id("user_email");
     By password = By.id("user_password");
     By go = By.name("commit");
-
+    By failedlogin=By.cssSelector("alert alert-danger");
     public WebElement getEmail() {
         return driver.findElement(email);
     }
@@ -26,5 +25,8 @@ public class loginpage {
 
     public WebElement getLoginButton() {
         return driver.findElement(go);
+    }
+    public WebElement failedLogin(){
+        return driver.findElement(failedlogin);
     }
 }

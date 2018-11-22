@@ -1,1 +1,5 @@
+resources\base.class
+pageObjects\loginpage.class
+pageObjects\landingpage.class
+pageObjects\portalHomepage.class
 resources\ExtentReporterNG.class
